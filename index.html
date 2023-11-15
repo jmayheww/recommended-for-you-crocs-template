@@ -5,15 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suggested Products: Crocs Shoes</title>
+    <style>
+        /* Existing Styles... */
+
+        /* Responsive Styles */
+        @media only screen and (max-width: 640px) {
+            .responsive-table {
+                width: 100% !important;
+            }
+
+            .responsive-image {
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            /* Adjust text size and padding as needed */
+            .responsive-text {
+                font-size: 14px !important;
+            }
+
+            .shop-now-button {
+                display: block;
+                /* Makes the link block-level */
+                width: 80%;
+                /* Responsive width */
+                margin: 10px auto;
+                /* Centers the button and adds vertical spacing */
+                padding: 10px 0;
+                /* Reduced padding */
+                font-size: 14px;
+                /* Slightly smaller font size */
+                text-align: center;
+                /* Centers the text */
+            }
+        }
+    </style>
 </head>
 
 <body style="background-color: #f2f2f2; width: 100%; margin: 0; padding: 0;">
-
-    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="responsive-table">
         <tr>
-            <td align="center" style="padding: 20px 0 20px 0;">
+            <td align="center" style="padding: 0; margin: 0;">
 
-                <table cellpadding="0" cellspacing="0" border="0" width="640"
+                <table cellpadding="0" cellspacing="0" border="0" width="640px" class="responsive-table"
                     style="background-color: #ffffff; border: 1px solid #f2f2f2; border-radius: 4px; box-shadow: 0 0 10px #f2f2f2;">
                     <tr>
                         <td align="center">
@@ -21,7 +55,8 @@
                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                 <tr>
 
-                                    <td align="center" style=" background-color: #000; padding: 5px">
+                                    <td align="center" style=" background-color: #000; padding: 5px 0 5px 0"
+                                        width="640px">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
                                             style="padding:10px 0;text-align:center;line-height:1.5;font-family:sans-serif,Arial,Proxima Nova;font-size:14px;font-weight:400; color:#ffffff; text-decoration: none; text-transform: uppercase">
                                             free shipping for crocs club members
@@ -35,16 +70,18 @@
                         <td align="center" style="padding: 30px 30px 20px 30px;">
                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                 <tr>
-                                    <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
-                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699595619/crocs_logo_cqq4zw.png"
-                                            alt="Crocs Logo" width="30%" height="auto"
-                                            style="display: block; padding: 5px" />
-                                    </a>
+                                    <td align="center">
+                                        <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
+                                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699595619/crocs_logo_cqq4zw.png"
+                                                alt="Crocs Logo" width="200" height="auto"
+                                                style="display: block; margin: auto;" />
+                                        </a>
+                                    </td>
                                 </tr>
-
                             </table>
                         </td>
                     </tr>
+
                     <tr>
                         <td align="center">
 
@@ -120,21 +157,21 @@
                     <!-- Recommended Products Section -->
                     <tr>
                         <td align="center">
-                            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="padding: 0 50px;">
+                            <table cellpadding="0" cellspacing="0" border="0" width="610px" style="padding: 0 10%;">
                                 <tr>
                                     <!-- First Product Image -->
-                                    <td align="center" style="width:50%;">
+                                    <td align="center" width="50%" max-width="50%">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
                                             <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699859131/classic_clog_xzr172.png"
-                                                alt="Crocs Classic Clog" width="100%" height="auto"
+                                                alt="Crocs Classic Clog" width="80%" height="auto"
                                                 style="display: block; max-width: 200px;" />
                                         </a>
                                     </td>
                                     <!-- Second Product Image -->
-                                    <td align="center" style="width:50%;">
+                                    <td align="center" width="50%" max-width="50%">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
                                             <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699859131/classic_crocs_sandfal_encpnz.png"
-                                                alt="Crocs Classic Sandal" width="100%" height="auto"
+                                                alt="Crocs Classic Sandal" width="80%" height="auto"
                                                 style="display: block; max-width: 200px;" />
                                         </a>
                                     </td>
@@ -143,56 +180,55 @@
                                     <!-- First Product Name -->
                                     <td align="center" style="width:50%; padding-top: 2px;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
-                                            style="text-decoration: none; color: #000; font-family: sans-serif,Arial,Proxima Nova;font-size:16px;">
+                                            style="text-decoration: none; color: #000; font-family: sans-serif,Arial,Proxima Nova;font-size:14px;">
                                             Classic Lined Clog
                                         </a>
                                     </td>
                                     <!-- Second Product Name -->
                                     <td align="center" style="width:50%; padding-top: 2px;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
-                                            style="text-decoration: none; color: #000; font-family: sans-serif,Arial,Proxima Nova;font-size:16px;">
+                                            style="text-decoration: none; color: #000; font-family: sans-serif,Arial,Proxima Nova;font-size:14px; display:inline-block;white-space:nowrap">
                                             Classic Crocs Sandal
                                         </a>
-
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="center" style="width:50%; padding-top: 30px;">
+                                    <!-- First Product Shop Now Button -->
+                                    <td align="center" style="padding-top: 30px;" width="50%" max-width="50%">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
-                                            style="text-decoration: none; color: #fff; font-family: sans-serif,Arial,Proxima Nova;font-size:16px; border: 1px solid #000; padding: 13px 35px; border-radius: 3px; background-color: #000; text-transform: uppercase; font-weight:600;">
-
+                                            style="text-decoration: none; color: #fff; font-family: sans-serif,Arial,Proxima Nova;font-size:16px; border: 1px solid #000; padding: 4% 10%; border-radius: 3px; background-color: #000; text-transform: uppercase; font-weight:600;">
                                             shop now
                                         </a>
                                     </td>
-                                    <td align="center" style="width:50%; padding-top: 30px;">
+                                    <!-- Second Product Shop Now Button -->
+                                    <td align="center" style="padding-top: 30px;" width="50%" max-width="50%">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
-                                            style="text-decoration: none; color: #fff; font-family: sans-serif,Arial,Proxima Nova;font-size:16px; border: 1px solid #000; padding: 13px 35px; border-radius: 3px; background-color: #000; text-transform: uppercase; font-weight:600;">
+                                            style="text-decoration: none; color: #fff; font-family: sans-serif,Arial,Proxima Nova;font-size:16px; border: 1px solid #000; padding: 4% 10%; border-radius: 3px; background-color: #000; text-transform: uppercase; font-weight:600;">
 
                                             shop now
                                         </a>
                                     </td>
                                 </tr>
-
                             </table>
                         </td>
                     </tr>
                     <tr>
                         <td align="center">
-                            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="padding: 40px 50px;">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="padding: 10% 10% ;">
                                 <tr>
                                     <!-- First Product Image -->
-                                    <td align="center" style="width:50%;">
+                                    <td align="center" width="50%" max-width="50%">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
                                             <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699859131/crocs_shine_ruw5wf.png"
-                                                alt="Crocs Shine" width="100%" height="auto"
+                                                alt="Crocs Shine" width="80%" height="auto"
                                                 style="display: block; max-width: 200px;" />
                                         </a>
                                     </td>
                                     <!-- Second Product Image -->
-                                    <td align="center" style="width:50%;">
+                                    <td align="center" width="50%" max-width="50%">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
                                             <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699859131/mystery_5_tuuriv.png"
-                                                alt="Crocs Mystery 5 pack" width="100%" height="auto"
+                                                alt="Crocs Mystery 5 pack" width="80%" height="auto"
                                                 style="display: block; max-width: 200px;" />
                                         </a>
                                     </td>
@@ -201,31 +237,30 @@
                                     <!-- First Product Name -->
                                     <td align="center" style="width:50%; padding-top: 2px;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
-                                            style="text-decoration: none; color: #000; font-family: sans-serif,Arial,Proxima Nova;font-size:16px;">
+                                            style="text-decoration: none; color: #000; font-family: sans-serif,Arial,Proxima Nova;font-size:14px;">
                                             Classic Shine
                                         </a>
                                     </td>
                                     <!-- Second Product Name -->
                                     <td align="center" style="width:50%; padding-top: 2px;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
-                                            style="text-decoration: none; color: #000; font-family: sans-serif,Arial,Proxima Nova;font-size:16px;">
+                                            style="text-decoration: none; color: #000; font-family: sans-serif,Arial,Proxima Nova;font-size:14px;">
                                             Mystery 5 Pack
                                         </a>
-
                                     </td>
                                 </tr>
                                 <tr>
+                                    <!-- First Product Shop Now Button -->
                                     <td align="center" style="width:50%; padding-top: 30px;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
-                                            style="text-decoration: none; color: #fff; font-family: sans-serif,Arial,Proxima Nova;font-size:16px; border: 1px solid #000; padding: 13px 35px; border-radius: 3px; background-color: #000; text-transform: uppercase; font-weight:600;">
-
+                                            style="text-decoration: none; color: #fff; font-family: sans-serif,Arial,Proxima Nova;font-size:16px; border: 1px solid #000; padding: 5% 10%; border-radius: 3px; background-color: #000; text-transform: uppercase; font-weight:600;">
                                             shop now
                                         </a>
                                     </td>
+                                    <!-- Second Product Shop Now Button -->
                                     <td align="center" style="width:50%; padding-top: 30px;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
-                                            style="text-decoration: none; color: #fff; font-family: sans-serif,Arial,Proxima Nova;font-size:16px; border: 1px solid #000; padding: 13px 35px; border-radius: 3px; background-color: #000; text-transform: uppercase; font-weight:600;">
-
+                                            style="text-decoration: none; color: #fff; font-family: sans-serif,Arial,Proxima Nova;font-size:16px; border: 1px solid #000; padding: 5% 10%; border-radius: 3px; background-color: #000; text-transform: uppercase; font-weight:600;">
                                             shop now
                                         </a>
                                     </td>
@@ -233,6 +268,8 @@
                             </table>
                         </td>
                     </tr>
+                    <!-- End Recommended Products Section -->
+
                     <!-- End Recommended Products Section -->
                     <tr>
                         <td align="center" style="padding: 0px 20px 10px 20px;">
@@ -348,32 +385,32 @@
                         </td>
                     </tr>
                     <tr>
-                        <td align="center" style="padding: 20px 0px 40px 0px;">
-                            <table cellpadding="0" cellspacing="0" border="0" width="60%">
+                        <td align="center" style="padding: 5% 0 10% 0;">
+                            <table cellpadding="0" cellspacing="0" border="0" width="80%">
                                 <tr>
-                                    <td align="center" style="padding: 0px 0px 0px 0px;">
+                                    <td align="center" style="padding: 1%;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
                                             <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699859130/free_shipping_pix2ul.png"
-                                                alt="Crocs Free Shipping" width="50px" height="auto" /> </a>
+                                                alt="Crocs Free Shipping" width="50%" height="auto" /> </a>
                                     </td>
-                                    <td align="center" style="padding: 0px 0px 0px 0px;">
+                                    <td align="center" style="padding: 1%;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
                                             <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699859130/90_day_warranty_y3tyiq.png"
-                                                alt="Crocs Free Shipping" width="50px" height="auto" /> </a>
+                                                alt="Crocs Free Shipping" width="50%" height="auto" /> </a>
                                     </td>
-                                    <td align="center" style="padding: 0px 0px 0px 0px;">
+                                    <td align="center" style="padding: 1%;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
                                             <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699859130/hassle_free_returns_wjzomz.png"
-                                                alt="Crocs Free Shipping" width="50px" height="auto" /> </a>
+                                                alt="Crocs Free Shipping" width="50%" height="auto" /> </a>
                                     </td>
-                                    <td align="center" style="padding: 0px 0px 0px 0px;">
+                                    <td align="center" style="padding: 1%;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer">
                                             <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699859130/secure_transactions_vhprga.png"
-                                                alt="Crocs Free Shipping" width="50px" height="auto" /> </a>
+                                                alt="Crocs Free Shipping" width="50%" height="auto" /> </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="center" style="padding: 0px 0px 0px 0px;">
+                                    <td align="center" style="padding: 1%;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
                                             style="color:#000000; text-decoration: none; font-family: sans-serif,Arial,Proxima Nova;font-size:12px;">
                                             <p
@@ -381,7 +418,7 @@
                                                 Free Shipping on Footwear</p>
                                         </a>
                                     </td>
-                                    <td align="center" style="padding: 0px 0px 0px 0px;">
+                                    <td align="center" style="padding: 1% ;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
                                             style="color:#000000; text-decoration: none; font-family: sans-serif,Arial,Proxima Nova;font-size:12px;">
                                             <p
@@ -389,7 +426,7 @@
                                                 90 Day Warranty</p>
                                         </a>
                                     </td>
-                                    <td align="center" style="padding: 0px 0px 0px 0px;">
+                                    <td align="center" style="padding: 1% ;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
                                             style="color:#000000; text-decoration: none; font-family: sans-serif,Arial,Proxima Nova;font-size:12px;">
                                             <p
@@ -397,7 +434,7 @@
                                                 Hassle Free Returns</p>
                                         </a>
                                     </td>
-                                    <td align="center" style="padding: 0px 0px 0px 0px;">
+                                    <td align="center" style="padding: 1%;">
                                         <a href="https://www.crocs.com/" target="_blank" rel="noopener noreferrer"
                                             style="color:#000000; text-decoration: none; font-family: sans-serif,Arial,Proxima Nova;font-size:12px;">
                                             <p
@@ -413,11 +450,11 @@
                         <td align="center" style="background-color: #000;">
                             <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                 <tr>
-                                    <td align="center" style="padding: 10px 0px 20px 0px;">
-                                        <table cellspacing="0" cellpadding="0" border="0" width="30%">
+                                    <td align="center" style="padding: 3% 0% 3% 5%;">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="50%">
                                             <tr>
                                                 <td
-                                                    style="padding: 15px 0px 0px 0px; font-family: sans-serif,Arial,Proxima Nova;font-size:12px; color: #fff; line-height: 1.5;">
+                                                    style="padding: 1%; font-family: sans-serif,Arial,Proxima Nova;font-size:12px; color: #fff; line-height: 1.5;">
                                                     <a href="https://www.crocs.com/" target="_blank"
                                                         rel="noopener noreferrer"
                                                         style="color:#ffffff; text-decoration: none;">
@@ -427,7 +464,7 @@
                                                     </a>
                                                 </td>
                                                 <td
-                                                    style="padding: 15px 0px 0px 0px; font-family: sans-serif,Arial,Proxima Nova;font-size:12px; color: #fff; line-height: 1.5;">
+                                                    style="padding: 1%; font-family: sans-serif,Arial,Proxima Nova;font-size:12px; color: #fff; line-height: 1.5;">
                                                     <a href="https://www.crocs.com/" target="_blank"
                                                         rel="noopener noreferrer"
                                                         style="color:#ffffff; text-decoration: none;">
@@ -437,7 +474,7 @@
                                                     </a>
                                                 </td>
                                                 <td
-                                                    style="padding: 15px 0px 0px 0px; font-family: sans-serif,Arial,Proxima Nova;font-size:12px; color: #fff; line-height: 1.5;">
+                                                    style="padding: 1%; font-family: sans-serif,Arial,Proxima Nova;font-size:12px; color: #fff; line-height: 1.5;">
                                                     <a href="https://www.crocs.com/" target="_blank"
                                                         rel="noopener noreferrer"
                                                         style="color:#ffffff; text-decoration: none;">
@@ -447,7 +484,7 @@
                                                     </a>
                                                 </td>
                                                 <td
-                                                    style="padding: 15px 0px 0px 0px; font-family: sans-serif,Arial,Proxima Nova;font-size:12px; color: #fff; line-height: 1.5;">
+                                                    style="padding: 1%; font-family: sans-serif,Arial,Proxima Nova;font-size:12px; color: #fff; line-height: 1.5;">
                                                     <a href="https://www.crocs.com/" target="_blank"
                                                         rel="noopener noreferrer"
                                                         style="color:#ffffff; text-decoration: none;">
@@ -465,8 +502,8 @@
 
                                     <td align="center">
 
-                                        <table role="presentation" style="background-color: #000000; padding: 5px;"
-                                            width="70%" cellspacing="0" cellpadding="0" border="0">
+                                        <table role="presentation" style="background-color: #000000; padding: 1%;"
+                                            width="80%" cellspacing="0" cellpadding="0" border="0">
 
                                             <tbody>
 
@@ -476,24 +513,24 @@
                                                             style="display:inline-block;white-space:nowrap">
 
                                                             <a href="http://click.crocs-email.com/?qs=af54b9045c5d2129af80859aca86f17e17c7dadac15d95e779e3249531643c78b1db151b3284f357cc1eb7a5a619611c5e0bad4a1f2df46bb9b7492eee4c5d52"
-                                                                style="margin:0 20px;color:#ffffff" rel="noreferrer"
-                                                                target="_blank"
+                                                                style="margin:0 20px;color:#ffffff; text-decoration:underline"
+                                                                rel="noreferrer" target="_blank"
                                                                 data-saferedirecturl="https://www.google.com/url?q=http://click.crocs-email.com/?qs%3Daf54b9045c5d2129af80859aca86f17e17c7dadac15d95e779e3249531643c78b1db151b3284f357cc1eb7a5a619611c5e0bad4a1f2df46bb9b7492eee4c5d52&amp;source=gmail&amp;ust=1699684291158000&amp;usg=AOvVaw2zuLTzDvsTfgTY0khdx3Qi">
                                                                 Contact Us </a>
 
                                                         </span> <span style="display:inline-block;white-space:nowrap">
 
                                                             <a href="http://click.crocs-email.com/?qs=af54b9045c5d21295f5abde55f45f24f75d0fb7e8d1688729a1f7a62d186f0cf3777f029571766cebba93be9e901a817f74b56ffb680387fdf7339cddcf76a99"
-                                                                style="margin:0 20px;color:#ffffff" rel="noreferrer"
-                                                                target="_blank"
+                                                                style="margin:0 20px;color:#ffffff; text-decoration:underline"
+                                                                rel="noreferrer" target="_blank"
                                                                 data-saferedirecturl="https://www.google.com/url?q=http://click.crocs-email.com/?qs%3Daf54b9045c5d21295f5abde55f45f24f75d0fb7e8d1688729a1f7a62d186f0cf3777f029571766cebba93be9e901a817f74b56ffb680387fdf7339cddcf76a99&amp;source=gmail&amp;ust=1699684291158000&amp;usg=AOvVaw2aMBIKpHuHdZfRUlHkcFIw">
                                                                 Order Status </a>
 
                                                         </span> <span style="display:inline-block;white-space:nowrap">
 
                                                             <a href="http://view.crocs-email.com/?qs=853b308dc08da1344d9959d7031ab272c891b909b7c918bc9a8e98d6944103cd0a01f95779c9a9c6b37dba3dbe8a048547b7a4d01753a617a67fc8073d039b66843a9990a26374a111141673964570f10d45409e6ec54e0eef401595b7b37062"
-                                                                style="margin:0 20px;color:#ffffff" rel="noreferrer"
-                                                                target="_blank"
+                                                                style="margin:0 20px;color:#ffffff; text-decoration:underline"
+                                                                rel="noreferrer" target="_blank"
                                                                 data-saferedirecturl="https://www.google.com/url?q=http://view.crocs-email.com/?qs%3D853b308dc08da1344d9959d7031ab272c891b909b7c918bc9a8e98d6944103cd0a01f95779c9a9c6b37dba3dbe8a048547b7a4d01753a617a67fc8073d039b66843a9990a26374a111141673964570f10d45409e6ec54e0eef401595b7b37062&amp;source=gmail&amp;ust=1699684291158000&amp;usg=AOvVaw0QNsljrFMpX178Z14qU9JC">
                                                                 View&nbsp;As&nbsp;Webpage </a>
 
@@ -502,16 +539,16 @@
                                                         <span style="display:inline-block;white-space:nowrap">
 
                                                             <a href="http://click.crocs-email.com/unsub_center.aspx?qs=b497b3302c5c6dbbb8ba493b201c88a85b5c409d527d85070a0359e3e5d1626cc80af0cefeb8812e8af9aab90dd819c1fd1c342ac5d84a0fde9c8503733b1d7c59ded3b0cb578dcdb2601abc6aac0b04"
-                                                                style="margin:0 20px;color:#ffffff" rel="noreferrer"
-                                                                target="_blank"
+                                                                style="margin:0 20px;color:#ffffff; text-decoration:underline"
+                                                                rel="noreferrer" target="_blank"
                                                                 data-saferedirecturl="https://www.google.com/url?q=http://click.crocs-email.com/unsub_center.aspx?qs%3Db497b3302c5c6dbbb8ba493b201c88a85b5c409d527d85070a0359e3e5d1626cc80af0cefeb8812e8af9aab90dd819c1fd1c342ac5d84a0fde9c8503733b1d7c59ded3b0cb578dcdb2601abc6aac0b04&amp;source=gmail&amp;ust=1699684291158000&amp;usg=AOvVaw3wyYeL7YZM5KmoAyOPtEPN">
                                                                 Unsubscribe </a>
 
                                                         </span> <span style="display:inline-block;white-space:nowrap">
 
                                                             <a href="http://click.crocs-email.com/?qs=af54b9045c5d2129b5228837401d59c80745b5f729f9ca460b4c1ed5cc8147feee2b80cb46871eb38994a90252797ebfb5a96200e362de4153f1e39a2f639020"
-                                                                style="margin:0 20px;color:#ffffff" rel="noreferrer"
-                                                                target="_blank"
+                                                                style="margin:0 20px;color:#ffffff; text-decoration:underline"
+                                                                rel="noreferrer" target="_blank"
                                                                 data-saferedirecturl="https://www.google.com/url?q=http://click.crocs-email.com/?qs%3Daf54b9045c5d2129b5228837401d59c80745b5f729f9ca460b4c1ed5cc8147feee2b80cb46871eb38994a90252797ebfb5a96200e362de4153f1e39a2f639020&amp;source=gmail&amp;ust=1699684291158000&amp;usg=AOvVaw3s-1spVbVvKonHHau3OBJ9">
                                                                 Update Your Preferences </a>
 
@@ -521,7 +558,7 @@
 
                                                 <tr>
                                                     <td align="center"
-                                                        style="background-color: #000000; padding: 0px 0px 10px">
+                                                        style="background-color: #000000; padding:0 0 4% 0">
                                                         <table width="100%" bgcolor="#000000" cellpadding="0"
                                                             cellspacing="0"
                                                             style="background-color: #000000; max-width: 600px; margin: auto;">
